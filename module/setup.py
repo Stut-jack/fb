@@ -341,21 +341,13 @@ def lanjutG():
 	return 0
 def menu():
 	tampil('''\rh
-                     .-.-..
-                    /+/++//
-                   /+/++//
-            \rk*   *\rh /+/++//
-             \ /  |/__//
-           {\rmX\rh}v{\rmX\rh}|\rcSTX\rh|==========.
-             [']  /'|'\           \\
-                 /  \  \           '
-                 \_  \_ \_    \rk*\rhDragonFly ZomBie
+
 \rk###########################################################
-#             \rb*MULTY BRUTEFORCE FACEBOOK*\rk                 #
-# \rhBY\rp                                             Stutjack \rk#
-# \rhGroup FB\rp  https://m.facebook.com/groups/164201767529837 \rk#
-# \rhGitHub\rp                      https://github.com/Stut-jack \rk#
-#       \rmTolong Gunakan Tools ini Dengan bijak...           \rk#
+             \rb*MULTY BRUTEFORCE FACEBOOK*\rk                 
+  \rhBY\rp                                             Stutjack \rk
+ \rhGroup FB\rp  https://m.facebook.com/groups/164201767529837 \rk
+ \rhGitHub\rp                      https://github.com/Stut-jack \rk
+       \rmTolong Gunakan Tools ini Dengan bijak...           \rk
 ###########################################################''')
 	tampil('''\rk%s\n\rc1 \rhAmbil id dari group\n\rc2 \rhAmbil id dari daftar teman\n\rc3 \rmKELUAR\n\rk%s'''%('#'*20,'#'*20))
 	i = inputM('[?]PILIH',[1,2,3])
