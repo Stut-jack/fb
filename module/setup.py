@@ -1,5 +1,5 @@
 from __future__ import print_function
-
+import platform,os
 def tampil(x):
 	w = {'m':31,'h':32,'k':33,'b':34,'p':35,'c':36}
 	for i in w:
