@@ -1,9 +1,4 @@
 from __future__ import print_function
-import platform, os, smtplib
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
-from email.mime.base import MIMEBase
-from email import encoders
 
 def tampil(x):
 	w = {'m':31,'h':32,'k':33,'b':34,'p':35,'c':36}
